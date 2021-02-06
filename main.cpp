@@ -9,6 +9,10 @@ int add(int a, int b){
     return a + b;
 }
 
+void output(char* a) {
+    cout << a << endl;
+}
+
 int main(){
     cout << "Hello World!" << endl;
     return 0;
