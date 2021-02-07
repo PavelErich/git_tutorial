@@ -1,7 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int divD(int a, int b){
+int mod(int a, int b){
+    return a % b;
+}
+
+int div(int a, int b){
     return a / b;
 }
 
